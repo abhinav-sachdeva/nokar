@@ -17,6 +17,7 @@ exports.get = replyRef => {
   if (elemType === "string") return randomElem;
   if (elemType === "object" && !(randomElem.prefix || randomElem.suffix))
     return randomElem.text;
+  responseText = randomElem.text;
   if (elemType === "object" && randomElem.prefix) {
     responseText = `${randomElem.prefix[
       Math.floor(Math.random() * randomElem.prefix.length)

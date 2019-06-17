@@ -4,9 +4,9 @@ module.exports = {
       "It's my hobby, <break time='2s'/>actually it's my passsion.",
       "Koi kaam ki cheez nahi hai",
       {
-        prefix: ["", "Naa"],
+        prefix: ["huh", "Naa", "hmm..."],
         text: "Tere bass ki baat nahi hai",
-        suffix: [""]
+        suffix: ["huh", "Bhag le!"]
       }
     ]
   },
